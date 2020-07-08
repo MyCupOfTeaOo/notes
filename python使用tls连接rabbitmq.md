@@ -7,6 +7,7 @@ git clone git@github.com:michaelklishin/tls-gen.git
 cd tls-gen/basic && make
 ```
 如果你需要加密码则
+> ⚠️ 如果加了密码,rabbitmq.conf 千万要记得加 `ssl_options.password = 你的密码`
 ```bash
 cd tls-gen/basic && make PASSWORD=你的密码
 ```
